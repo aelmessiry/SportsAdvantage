@@ -1,0 +1,27 @@
+service: car-nft
+frameworkVersion: "4"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  mintCarAdSpotNft:
+    handler: handler.mintCarAdSpotNft
+    events:
+      - http:
+          path: mintCarAdSpotNft
+          method: post
+          cors: true
+    timeout: 30
+  
+  mintCarExpNft:
+    handler: handler.mintCarExpNft
+    events:
+      - http:
+          path: mintCarExpNft
+          method: post
+          cors: true
+    timeout: 30
+plugins:
+  - serverless-offline

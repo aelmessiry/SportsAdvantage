@@ -1,0 +1,16 @@
+{
+  "name": "nft-inception",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@open-rpc/client-js": "^1.8.1",
+    "casper-js-sdk": "^2.15.3",
+    "serverless-offline": "^14.0.0"
+  }
+}
