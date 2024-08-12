@@ -1,0 +1,8 @@
+export const TOKENS_DICT = {
+  CASPER: "CSPR",
+  ETHEREUM: "ETH",
+  BSC_MAINNET: "BNB",
+  BSC_TESTNET: "BNB",
+  POLYGON: "MATIC",
+  MUMBAI: "MATIC",
+};

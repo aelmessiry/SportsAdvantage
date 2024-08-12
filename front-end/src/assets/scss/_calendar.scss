@@ -1,0 +1,146 @@
+.sp-adv-calendar {
+    border-radius: 18px;
+    border: 0.787px solid #F1F2F2;
+    background: #FFF;
+    /* calendar */
+    box-shadow: 1px 1px 3px 0px rgba(189, 200, 223, 0.70), -1px -1px 3px 0px rgba(255, 255, 255, 0.70);
+    padding: 20px;
+
+    .rbc-event-content {
+        text-transform: capitalize;
+    }
+
+    .rbc-show-more {
+        background-color: transparent;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    border-radius: 12px;
+    border: 0.6px solid #F1F2F2;
+    background: #FAFBFD;
+
+    .rbc-toolbar button {
+        background-color: theme("colors.antiFlashWhite.300");
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        height: 34px;
+        color: theme("colors.darkGunmetal.600");
+
+        &.rbc-active,
+        &:hover {
+            background-color: theme("colors.lava.100");
+            color: #fff;
+        }
+
+        &:not(:last-child) {
+            margin-right: 6px;
+        }
+    }
+
+    .rbc-toolbar-label {
+        color: theme("colors.darkGunmetal.200");
+        font-family: theme("fontFamily.spAdvRegular");
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        padding: 10px
+    }
+
+    .rbc-toolbar button.rbc-active:hover,
+    .rbc-toolbar button.rbc-active:focus,
+    .rbc-toolbar button:hover,
+    .rbc-toolbar button:focus {
+        background-color: theme("colors.lava.100");
+        color: #fff;
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+
+    .rbc-header,
+    .rbc-time-gutter.rbc-time-column {
+        background-color: theme("colors.cetaceanBlue.300");
+        padding: 12px 5px;
+        color: theme("colors.darkGunmetal.600");
+        font-weight: 400;
+        font-family: theme("fontFamily.spAdvRegular");
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+
+    .dash-calender-event-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 125px;
+    }
+
+    .dash-calender-event-icon {
+        font-size: 14px;
+        margin-right: 2px;
+        position: relative;
+    }
+
+    .rbc-date-cell {
+        a {
+            color: theme("colors.lava.100");
+        }
+
+        &.rbc-off-range {
+            a {
+                color: theme("colors.lava.100");
+            }
+        }
+    }
+
+    .rbc-month-view,
+    .rbc-row {
+        border-radius: 18px;
+    }
+
+    .rbc-month-header {
+        :last-child {
+            border-top-right-radius: 18px;
+        }
+
+        :first-child {
+            border-top-left-radius: 18px;
+        }
+    }
+
+    .rbc-row-bg {
+        :last-child {
+            border-bottom-right-radius: 18px;
+        }
+    }
+
+    .rbc-toolbar {
+        .rbc-btn-group {
+            button {
+                margin-right: 0;
+                padding: 10px 20px;
+                height: 40px;
+                font-family: theme("fontFamily.spAdvRegular");
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px
+            }
+
+            :last-child {
+                border-top-right-radius: 18px;
+                border-bottom-right-radius: 18px;
+            }
+
+            :first-child {
+                border-top-left-radius: 18px;
+                border-bottom-left-radius: 18px;
+            }
+
+        }
+    }
+
+}

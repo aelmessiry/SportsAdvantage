@@ -1,0 +1,128 @@
+.hoverdSpotRed {
+    fill: rgba(217, 17, 24, 0.30);
+    stroke: theme("colors.lava.100");
+}
+
+.hoverdSpotGreen {
+    fill: rgba(23, 135, 75, 0.3);
+    stroke: theme("colors.green.100");
+}
+
+.hoverdSpotOrange {
+    fill: rgba(251, 146, 60, 0.30);
+    stroke: theme("colors.orange.400");
+    cursor: pointer;
+}
+
+.disabledItem {
+    pointer-events: none;
+    cursor: not-allowed;
+
+    .atr-spot-action {
+        background-color: theme("colors.neutral.300");
+    }
+}
+
+.thumbnail-wrapper {
+    .slick-track div:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    .slick-active.slick-current {
+        .thumb-text {
+            background: theme('colors.lava.100');
+            color: theme('colors.antiFlashWhite.100');
+        }
+
+    }
+}
+
+.spot-card {
+    &.hoverdSpotRed {
+        border: 1px solid;
+        border: theme("borderColor.lava.100")
+    }
+
+    &.hoverdSpotGreen {
+        border: 1px solid;
+        border: theme("borderColor.green.100")
+    }
+
+    &.hoverdSpotOrange {
+        border: 1px solid;
+        border: theme("borderColor.orange.400")
+    }
+}
+
+.sp-adv-spot-container {
+    direction: ltr;
+
+    .sp-adv-spot-selection {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+
+        &::-webkit-scrollbar-track {
+            border-radius: 100px;
+            opacity: 0.4;
+            background: theme("colors.neutral.300");
+        }
+
+        &::-webkit-scrollbar {
+            width: 5px;
+            background-color: #F5F5F5;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 100px;
+            opacity: 0.4;
+            background: theme("colors.neutral.400");
+        }
+
+        .sp-adv-spot-body {
+            direction: ltr;
+        }
+    }
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 37px;
+    height: 33px;
+    color: #bebac0;
+    border: 3px solid #bebac0;
+    display: inline-block;
+    transition: .3s linear;
+    z-index: 3;
+
+    &:hover {
+        color: theme('colors.lava.100');
+        border: 3px solid theme('colors.lava.100');
+
+    }
+}
+
+.custom-prev-arrow {
+
+    margin-right: 50px;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+
+    &>div,
+    .sp-adv-add-member,
+    .sp-adv-add-member div {
+
+        height: 97%;
+    }
+}

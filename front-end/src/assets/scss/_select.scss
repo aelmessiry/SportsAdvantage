@@ -1,0 +1,68 @@
+.sp-adv-select {
+    &:not(.sp-adv-basic-select) {
+        .sp-adv-select__control {
+            border-radius: 24px;
+            background: #FFF;
+        }
+
+        .sp-adv-select__input-container {
+            font-weight: theme('fontWeight.bold');
+        }
+    }
+
+    &.sp-adv-basic-select {
+        .sp-adv-select__control {
+            border: none;
+        }
+
+        .sp-adv-select__input-container {
+            font-weight: theme('fontWeight.normal');
+        }
+
+        .sp-adv-select__single-value {
+            font-weight: theme('fontWeight.normal');
+            font-size: 16px;
+        }
+
+        .sp-adv-select__placeholder {
+            color: theme('colors.darkGunmetal.300');
+            font-weight: theme('fontWeight.bold');
+            font-size: 16px;
+        }
+    }
+
+    .sp-adv-select__control {
+        border-radius: 15px;
+        background: theme("colors.antiFlashWhite.400");
+        box-shadow: theme('boxShadow.outline-xs');
+        padding-left: 10px;
+        padding-right: 10px;
+        color: theme('colors.darkGunmetal.200');
+        font-weight: theme('fontWeight.bold');
+    }
+
+    .sp-adv-select__indicator-separator {
+        display: none;
+    }
+
+    .sp-adv-select__input-container {
+        color: theme('colors.darkGunmetal.200');
+    }
+
+    .sp-adv-select__placeholder {
+        color: theme('colors.darkGunmetal.200');
+        font-weight: theme('fontWeight.bold');
+    }
+
+    .sp-adv-select__option {
+        font-size: 14px !important;
+    }
+}
+
+.sp-adv-select-currency {
+    .sp-adv-select-currency__single-value {
+        .select-label {
+            display: none;
+        }
+    }
+}
