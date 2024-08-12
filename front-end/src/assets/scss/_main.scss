@@ -1,0 +1,75 @@
+.sp-adv-main {
+    padding-top: 107px;
+}
+
+.sp-adv-dot {
+    height: 7px;
+    width: 7px;
+    background-color: theme("colors.neutral.400");
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.sp-adv-photo-upload {
+    input {
+        font-weight: 100;
+    }
+}
+
+.sp-adv-selected-spot-icon {
+    border-radius: 43px;
+    background: linear-gradient(320deg, #FFF 0%, #E9EAF0 100%);
+    box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.25), -6px -6px 12px 0px rgba(255, 255, 255, 0.25);
+}
+
+.sp-adv-editor-wrapper {
+    border: 1px solid theme("colors.neutral.400");
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.sp-adv-datetime-picker {
+    height: 54px;
+
+    .react-datetime-picker__inputGroup {
+        height: 53px;
+    }
+
+    .react-datetime-picker__inputGroup__amPm {
+        background-image: none;
+    }
+}
+
+.react-datepicker__year-read-view--down-arrow {
+    top: 10px !important
+}
+
+.sp-adv-date-picker {
+
+    .react-date-picker__inputGroup__input {
+        font-weight: 600;
+    }
+
+    .react-date-picker__wrapper {
+        border: none;
+        border-radius: 15px;
+        background: #F4F4F4;
+        box-shadow: 2px 2px 5px 0px rgba(189, 200, 223, .7), -2px -2px 5px 0px rgba(255, 255, 255, .7);
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #1E1F20;
+        font-weight: 700;
+    }
+
+    .react-date-picker__calendar {
+        z-index: 10 !important;
+    }
+
+    .react-calendar__year-view .react-calendar__tile {
+        padding: 1em 0.5em;
+    }
+}
+
+.ql-container.ql-snow.ql-disabled {
+    border: none;
+}

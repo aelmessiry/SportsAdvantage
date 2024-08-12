@@ -1,0 +1,41 @@
+.sp-adv-datePicker {
+    border: 1px solid theme('colors.neutral.300');
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: theme('boxShadow.outline-xs');
+    color: theme('colors.darkGunmetal.200');
+    font-weight: theme('fontWeight.bold');
+    width: 100%;
+    margin-top: 10px;
+    height: 36px;
+
+    .sp-adv-select__control {
+        box-shadow: theme('boxShadow.outline-xs')
+    }
+
+    .react-datepicker__view-calendar-icon input {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+.sp-adv-form-datepicker {
+    height: 48px;
+
+    input[type='text'] {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        padding-left: 30px;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+    svg {
+        width: 0.9em;
+        height: 0.9em;
+    }
+}

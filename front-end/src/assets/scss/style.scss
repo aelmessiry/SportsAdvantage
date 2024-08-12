@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@import 'react-tooltip/dist/react-tooltip.css';
+@import 'react-quill/dist/quill.snow.css';
+@import '../../../node_modules/react-dropzone-uploader/dist/styles.css';
+@import url(./_fonts.scss);
+@import url(./_helpers.scss);
+@import url(./_calendar.scss);
+@import url(./_select.scss);
+@import url(./_datepicker.scss);
+@import url(./_header.scss);
+@import url(./_main.scss);
+@import url(./_hero.scss);
+@import url(./_cards.scss);
+@import url(./_wave-value.scss);
+@import url(./_logged-user.scss);
+@import url(./_side-bar.scss);
+@import url(./_login.scss);
+@import url(./_slider.scss);

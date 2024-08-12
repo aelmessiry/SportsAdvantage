@@ -1,0 +1,18 @@
+<svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Rectangle 2">
+<g id="Rectangle" filter="url(#filter0_d_533_15939)">
+<rect x="36" y="9" width="60" height="60" rx="6" fill="#D91118"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_533_15939" x="0" y="0" width="110" height="110" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-11" dy="16"/>
+<feGaussianBlur stdDeviation="12.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.862745 0 0 0 0 0.305882 0 0 0 0 0.254902 0 0 0 0.37 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_533_15939"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_533_15939" result="shape"/>
+</filter>
+</defs>
+</svg>
